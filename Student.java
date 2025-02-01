@@ -11,13 +11,13 @@ public class Student {
         return firstname;
     }
     public void setFirstname(String firstname) {
-        this.firstname = firstname.toUpperCase();
+        this.firstname = firstname.trim().toUpperCase();
     }
     public String getLastname() {
         return lastname;
     }
     public void setLastname(String lastname) {
-        this.lastname = lastname.toUpperCase();
+        this.lastname = lastname.trim().toUpperCase();
     }
     public int getStudentid() {
         return studentid;
